@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+}
+.couponimg{
+    width: 100%;
+    height: 26vh;
+    /* background-color: aqua; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.subcoupon{
+    width: 85%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    /* background-color: yellow; */
+    background-image: url('../../../assets/coupon.jpg');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.subcoupon h3{
+    font-size: 26.5375px;
+    color: white;
+}
+.subcoupon h6{
+    width: 18%;
+    height: 30%;
+    background-color: #A5804B;
+    color:white;
+    font-size: 13.6538px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #E0D0B9;
+}
+@media(max-width:1200px){
+    .couponimg{
+        height: 12vh;
+    }
+    .subcoupon{
+        background-size: 100% 100%;
+    }
+    .subcoupon h6{
+        width: 22%;
+    }
+}
+@media(max-width:600px){
+    .couponimg{
+        height: 18vh;   
+    }
+    .subcoupon{
+        background-size: 100% 100%;
+    }
+    .subcoupon h3{
+        font-size: 19.5375px;
+    }
+    .subcoupon h6{
+        width: 50%;
+    }
+}

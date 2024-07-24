@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+}
+
+.bannerdiv{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* background-color: yellow; */
+}
+.subbanner{
+    width: 85%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.imgbanner{
+    width: 100%;
+    height: 90%;
+    background-color: skyblue;
+    background-image: url('../../../assets/bannerdon.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannercon{
+    width: 40%;
+    height: 85%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subbannercon{
+    width: 80%;
+    height: 100%;
+    /* background-color: orangered; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5px; */
+}
+.subbannercon h3{
+    font-size: 23.9225px;
+    color: #FF4F4F;
+}
+.subbannercon h2{
+    font-size: 33.4987px;
+    color: #D99F46;
+    font-family: 'Pacifico', cursive;
+}
+.subbannercon h1{
+    font-size:73.5738px;
+}
+.subbannercon h4{
+    font-size: 23.9225px;
+    font-family: 'Pacifico', cursive;
+    color: #4A5568;
+}
+.contacticonss{
+    width: 100%;
+    height:11%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.contacticons{
+    width: 5%;
+    height: 60%;
+    border: 1px solid #4C5769;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+@media(max-width:1200px){
+    .bannerdiv{
+        height: 21vh;
+    }
+
+}
+
+@media(max-width:600px){
+    .bannerdiv{
+        height: 28vh;
+    }
+    .bannercon{
+        width: 80%;
+    }
+    .subbannercon h3{
+        font-size: 20.925px;
+    }
+    .subbannercon h1{
+        font-size:40.5738px;
+    }
+}

@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+}
+.footerdiv{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+.footersub{
+    width: 85%;
+    height: 90%;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.headdetails{
+    width: 100%;
+    height: 9%;
+    /* background-color: skyblue; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.freshproduct{
+    width: 40%;
+    height: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15.638px;
+}
+.delivery{
+    width: 40%;
+    height: 60%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15.638px;
+}
+.headdetails1{
+    width: 100%;
+    height: 14%;
+    /* background-color: skyblue; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-bottom: 2px dashed #D9D9D9;
+}
+.discounts{
+    width: 40%;
+    height: 60%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15.638px;
+}
+.bestprice{
+    width: 40%;
+    height: 60%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15.638px;
+}
+.contactdetails{
+    width: 100%;
+    height: 65%;
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;   
+    border-bottom: 2px dashed #D9D9D9;
+
+}
+.subcontact{
+    width: 100%;
+    height: 82%;
+    /* background-color: yellow; */
+    display:flex;
+}
+.fastkartdiv{
+    width: 26%;
+    height: 100%;
+    /* background-color:violet; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.fastkartdiv li{
+    width: 80%;
+}
+.fastkartimg{
+    width: 60%;
+    height: 10%;
+}
+.fastkartdiv p{
+    width: 78%;
+    color: #4A5568;
+    font-size: 15.3075px;
+    line-height: 30px;
+    /* background-color: orange; */
+}
+.home{
+    display: flex;
+    gap:5px;
+    list-style-type: none;
+    color: #4A5568;
+    font-size: 15.3075px;
+}
+
+.categoriesdiv{
+    width: 17%;
+    height: 100%;
+    /* background-color: aqua; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15.3075px;
+    color: #4A5568;
+
+}
+.categoriesdiv h4{
+    font-size: 18.9613px;
+    color: black;
+}
+.linksdiv{
+    width: 16%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15.3075px;
+    color: #4A5568;
+    /* background-color: forestgreen; */
+}
+.linksdiv h4{
+    color: black;
+    font-size: 18.9613px;
+}
+.helpcenter{
+    width: 16%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15.3075px;
+    color: #4A5568;
+    /* background-color: sandybrown; */
+}
+.helpcenter h4{
+    color: black;
+    font-size: 18.9613px;
+}
+.contactus{
+    width: 25%;
+    height: 100%;
+    /* list-style-type: none; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: yellow; */
+
+}
+.contactus h4{
+    color: black;
+    font-size: 18.9613px;
+}
+.hotline{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: #4A5568;
+}
+.numberdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-bottom: 2px dashed #D9D9D9;
+}
+.numberdiv h5{
+    font-size: 15.6538px;
+    color: black;
+}
+.numberdiv h6{
+    font-size: 13.6538px;
+    color: #4A5568;
+}
+.downloadapp{
+    width: 100%;
+    height: 30%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stores{
+    width: 37%;
+    height: 47%;
+    display: flex;
+    gap: 10px; 
+}
+.downloadapp h5{
+    font-size:15.6538px;
+    color: #4A5568;
+}
+.lastfootercon{
+    width: 100%;
+    height: 11%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+.lastfootercon h5{
+    font-size:13.6538px;
+    color: #4A5568;
+}
+.totalcon{
+    width: 100%;
+    height: 55%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+
+}
+.payingimg{
+    width: 64%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.paytm{
+    width: 50%;
+    height: 100%;
+}
+.connecteddiv{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #4A5568;
+    font-size: 16px;
+
+}
+.connecteddiv h6{
+    font-size:13.6538px;
+    color: #4A5568;
+}
+/* .contactus{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+} */
+
+.contactus1{
+    display: none;
+}
+
+@media(max-width:1200px){
+    .footerdiv{
+        height: 65vh;
+    }
+    .headdetails{
+        height: 7%;
+    }
+    .headdetails1{
+        height: 9%;
+    }
+    .fastkartdiv{
+        width: 36%;
+    }
+    .categoriesdiv{
+        width: 22%;
+    }
+    .linksdiv{
+        width:19%;
+    }
+    .payingimg{
+        width: 51%;
+        height: 80%;
+    }
+
+    .contactus{
+        display: none;
+    }
+    .contactus1{
+        display: block;
+    }
+    .contactus1{
+        width: 25%;
+        height: 100%;
+        /* list-style-type: none; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* background-color: yellow; */
+    
+    }
+    .contactus1 h4{
+        color: black;
+        font-size: 18.9613px;
+    }
+    .hotline{
+        width: 100%;
+        height: 20%;
+        /* background-color: red; */
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        color: #4A5568;
+    }
+    .numberdiv{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        border-bottom: 2px dashed #D9D9D9;
+    }
+    .numberdiv h5{
+        font-size: 15.6538px;
+        color: black;
+    }
+    .numberdiv h6{
+        font-size: 13.6538px;
+        color: #4A5568;
+    }
+    .downloadapp{
+        width: 100%;
+        height: 30%;
+        /* background-color: orange; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .stores{
+        width: 37%;
+        height: 47%;
+        display: flex;
+        gap: 10px; 
+    }
+    .downloadapp h5{
+        font-size:15.6538px;
+        color: #4A5568;
+    }
+}
+
+@media(max-width:600px){
+    .footerdiv{
+        height: auto;
+    }
+    .headdetails{
+        display: none;
+    }
+    .headdetails1{
+        display: none;
+    }
+    .subcontact{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .fastkartdiv{
+        width:100%;
+    }
+    .categoriesdiv{
+        width:100%;
+    }
+    .linksdiv{
+        width:100%;
+    }
+    .helpcenter{
+        width: 100%;
+    }
+    .lastfootercon{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .totalcon{
+        display: flex;
+        flex-direction: column;
+    }
+    .payingimg{
+        height: auto;
+    }
+    .paytm{
+        height: auto;
+    }
+}

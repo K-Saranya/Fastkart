@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+}
+.newsdiv{
+    width: 100%;
+    height: 40vh;
+    /* background-color:yellow; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.subnewsdiv{
+    width: 85%;
+    height: 86%;
+    background-color: #3C3839;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.childnews{
+    width: 85%;
+    height: 80%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.leftcondiv{
+    width: 65%;
+    height: 100%;
+    /* background-color:red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.leftcondiv h2{
+    font-size:25.9225px;
+    color: white;
+}
+.leftcondiv h5{
+    font-size: 17.3075px;
+    color: #FFBC5D;
+}
+.emaildiv{
+    width: 70%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    justify-content: space-between;
+}
+.mailicon{
+    width: 9%;
+    height: 80%;
+    background-color: #FBF5EC;
+    color: #DEAD62;
+}
+.emaildiv input{
+    width: 60%;
+    height: 90%;
+    /* background-color: yellow; */
+    font-size: 14px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+.subsbutton{
+    width: 25%;
+    height: 100%;
+    background-color: #DEAD62;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.rightcondiv{
+    width: 35%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: flex-end;
+}
+.message{
+    width: 90%;
+    height: 100%;
+}
+
+@media(max-width:1200px){
+    .newsdiv{
+        height: 22vh;
+    }
+}
+
+@media(max-width:600px){
+    .newsdiv{
+        display: 25vh;
+    }
+    .leftcondiv{
+        width: 100%;
+    }
+    .leftcondiv h2{
+        font-size:18.9225px;
+        color: white;
+    }
+    .leftcondiv h5{
+        font-size: 12.3075px;
+        color: #FFBC5D;
+    }
+    .emaildiv{
+        width: 100%;
+    }
+    .subsbutton{
+        width: 35%;
+    }
+    .rightcondiv{
+        display: none;
+    }
+}

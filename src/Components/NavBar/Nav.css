@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.maindiv{
+    width: 100%;
+    height: 220px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.blacknav{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blackcontent{
+    width: 85%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    font-size: 13.6538px;
+}
+.blackcontent a{
+    color:white;
+}
+.language{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+    /* background-color: aqua; */
+}
+.flag{
+    width: 15%;
+    height: 50%;
+}
+.line{
+    color: white;
+    font-size: 20px;
+}
+.fastnav{
+    width: 100%;
+    height: 45%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallfastnav{
+    width: 85%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+.logoimg{
+    width: 13%;
+    height: 25%;
+}
+.location{
+    width: 16%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    border: 2px solid #ECECEC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.loc{
+    width: 12%;
+    height: 60%;
+    background-color: #F3F5F9;
+    border-radius: 5px;
+    padding: 5px;
+    /* font-size: 12px; */
+}
+.location p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color:#D99F46;
+    font-weight: 700;
+}
+.searchbar{
+    width: 43%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    border: 2px solid #ECECEC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-top:5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.search{
+    width: 12%;
+    height: 100%;
+    padding: 5px;
+    background-color: #D99F46;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+.line1{
+    color: #A4AAB3;
+    /* font-size: 20px; */
+}
+.fouricons{
+    width: 20%;
+    height: 50%;
+    /* background-color: yellow; */
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    /* justify-content: space-evenly; */
+    /* font-weight: 300; */
+}
+.categories{
+    width: 100%;
+    height: 40%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallcategories{
+    width: 85%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    /* gap: 33px; */
+    justify-content: space-between;
+}
+.forgap{
+    width:90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.categorybox{
+    width: 17%;
+    height: 40%;
+    background-color:black;
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* justify-content: space-between; */
+    color: white;
+    font-family: sans-serif;
+}
+.categorybox p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.menuicon{
+    font-size: 30px;
+}
+.menus{
+    width: 68%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    justify-content: space-around;
+    /* background-color: skyblue; */
+    padding: 5px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+}
+.menusname{
+    width: 9%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: purple; */
+    gap: 5px;
+}
+.menusname1{
+    width: 11%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: purple; */
+    gap: 5px;
+}
+.menusname2{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: purple; */
+    gap: 5px;
+}
+.thunder{
+    width: 5%;
+    height: 55%;
+    background-color: #FBF5EC;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#D99F46;
+    font-size: 28px;
+    border-radius: 10px;
+}
+.tabnav{
+    display: none;
+}
+
+@media(max-width:1200px){
+    .maindiv{
+        display: none;
+    }
+    .tabnav{
+        width: 100%;
+        height: 180px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+    .blacknav{
+        width: 100%;
+        height: 20%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blackcontent{
+        width: 85%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        font-family: "Public Sans", sans-serif;
+        font-size: 13.6538px;
+    }
+    .blackcontent a{
+        color:white;
+    }
+    .language{
+        width: 15%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        font-size: 14px;
+        font-family: sans-serif;
+        /* background-color: aqua; */
+    }
+    .flag{
+        width: 15%;
+        height: 50%;
+    }
+    .line{
+        color: white;
+        font-size: 20px;
+    }
+    
+}
+
+@media(max-width:600px){
+    .maindiv{
+        display: none;
+    }  
+    .tabnav{
+        display: none;
+    } 
+}
